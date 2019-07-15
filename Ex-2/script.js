@@ -3,9 +3,17 @@
 // il colore del nome deve essere azzurro o rosa a seconda del sesso inserito;
 
 
-
+//Memorizzo l'elemento nome in una variabile
+var element = document.getElementById("name");
+element.innerHTML = nome ;
 
 console.log("sesso: ",sesso);
 console.log("nome: ", nome);
 
-document.getElementById("name").innerHTML = nome ;
+
+// Cambio lo style color a seconda se lo user ha digitato maschi o femmina alla richiesta del prompt
+if (sesso === "maschio") {
+  element.style.color = "blue";
+}else if (sesso === "femmina"){
+  element.style.color = "pink";
+}
