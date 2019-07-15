@@ -3,5 +3,9 @@
 // il colore del nome deve essere azzurro o rosa a seconda del sesso inserito;
 
 
-var nome = prompt('Inserisci qui il tuo nome');
-var sesso = prompt('Inserisci qui il tuo sesso');
+
+
+console.log("sesso: ",sesso);
+console.log("nome: ", nome);
+
+document.getElementById("name").innerHTML = nome ;
