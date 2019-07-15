@@ -18,4 +18,6 @@ function genNumRandom(max, min, repeat){
   return temporanea;
 }
 
-console.log(genNumRandom(1, 100, 5));
+
+// Un alert() espone le cifre da memorizzare, range da 1 a 100, numeri casuali generati : 5
+alert("Ricorda queste cinque cifre almeno per 30 secondi: " + genNumRandom(1, 100, 5));
