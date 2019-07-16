@@ -76,4 +76,4 @@ setTimeout(function(){
   }
   console.log("Hai indovinato ", + contatore + " volte, i numeri indovinati sono: ", strIndovinate);
 
-}, 5000);
+}, (1000 * 30));
